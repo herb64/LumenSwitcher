@@ -6,6 +6,10 @@ This Little Plugin came from the idea, that I wanted to be able to switch Lumen 
 
 ## Using the plugin
 
+The plugin is for UE5.5. You can get the complete example project from here and compile yourself.
+
+I added a compiled plugin version for download here: https://www.dropbox.com/scl/fi/fsm9b6y5zx3jloc9qyt0p/LumenSwitchComponent-V1.0-2024-03-14.zip?rlkey=8aq02avtxlx0tbt4b73eoc8hg&dl=0. Simply unpack into your own project into the Plugins folder and add the Component to your Player Character.
+
 The Plugin delivers a simple Actor Component, that simply can be added to the Player Character. Important: only use the **BP_SwitcherComponent**, do not attach the *LumenSwitchComponentBase* to the Character.
 
 It displays a simple Widget with the currently effective Settings active at BeginPlay, based on the camera position, the existing PP Volumes in the level and the Config settings.
